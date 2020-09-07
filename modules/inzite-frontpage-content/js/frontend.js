@@ -1,5 +1,5 @@
 jQuery(() => {
-  jQuery('.isicslider').bxSlider({
+  jQuery('.inziteslider').bxSlider({
     mode: 'horizontal',
     adaptiveHeight: true,
     auto: true,

@@ -1,0 +1,111 @@
+.fl-module-inzite-slider .bx-wrapper {
+  margin-bottom: 0;
+}
+
+.fl-module-inzite-slider .bx-controls {
+  height: 0;
+}
+
+.inzite-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-size: cover;
+  background-position: center;
+  min-height: 420px;
+  border-radius: 0.5rem;
+}
+
+.inzite-slide__inner {
+  display: flex;
+  max-width: 1184px;
+  margin: 0 auto;
+  justify-content: flex-end;
+}
+
+.inzite-slide__caption {
+  width: 25%;
+  margin: 2rem 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-bottom: 3px solid;
+  border-top: 3px solid;
+  border-radius: 3px;
+  padding: 1rem;
+}
+
+.inzite-slide .inzite-slide__heading {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.inzite-slide__description {
+  font-size: 0.9rem;
+  margin: 1rem 0 0;
+}
+
+.inzite-slide__tagline {
+  max-width: 1184px;
+  margin: 0 auto;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  line-height: 1;
+  border-radius: 0.25rem 0.25rem 0 0;
+  opacity: 0.7;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+@media (max-width: 992px) {
+  .inzite-slide {
+    justify-content: flex-end;
+  }
+  .inzite-slide__caption {
+    width: 100%;
+    margin: 2rem 0 0 0;
+  }
+
+  .fl-module-inzite-slider .bx-wrapper .bx-controls-direction a {
+    bottom: 43px;
+    top: auto;
+  }
+  .fl-module-inzite-slider .bx-wrapper .bx-prev {
+    right: 50px;
+    left: auto;
+  }
+}
+
+@media (max-width: 340px) {
+  .inzite-slide__tagline {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+  .fl-module-inzite-slider .bx-wrapper .bx-pager.bx-default-pager {
+    position: relative;
+    bottom: 37px;
+    padding: 0;
+    text-align: right;
+    right: 10px;
+  }
+  .fl-module-inzite-slider .bx-wrapper .bx-pager.bx-default-pager a.active {
+    background-color: #fff;
+  }
+  .fl-module-inzite-slider .bx-wrapper .bx-pager.bx-default-pager a {
+    background-color: rgba(255, 255, 255, 0.35);
+  }
+}
+
+@media (min-width: 1318px) {
+  .fl-module-inzite-slider .bx-wrapper .bx-pager.bx-default-pager {
+    right: 74px;
+  }
+}
+
+@media (max-width: 1415px) and (min-width: 993px) {
+  .inzite-slide__caption {
+    margin-right: 54px;
+  }
+}

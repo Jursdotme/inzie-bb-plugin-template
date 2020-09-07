@@ -9,8 +9,8 @@ module.exports = {
     },
     extend: {
       colors: {
-        'isic-light-blue': '#9DABC8',
-        'isic-dark-blue': '#132266'
+        'inzite-light-blue': '#9DABC8',
+        'inzite-dark-blue': '#132266'
       }
     }
   },
