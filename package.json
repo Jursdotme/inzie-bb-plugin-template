@@ -9,7 +9,7 @@
   "dependencies": {
     "autoprefixer": "^9.5.1",
     "laravel-mix": "^5.0.5",
-    "tailwindcss": "^1.0"
+    "tailwindcss": "^2.0.1"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^1.2.0",

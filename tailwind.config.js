@@ -3,6 +3,7 @@ module.exports = {
   purge: [
     './modules/**/includes/frontend.php'
   ],
+  darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
       body: ["Tahoma", "Helvetica", "Helvetica", "Arial", "sans-serif"],
